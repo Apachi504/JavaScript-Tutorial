@@ -1,0 +1,57 @@
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<script type="text/javascript">
+// function min(a,b){
+//     if (a>b) {
+//         return b;
+//     }
+//     else {
+//         return a;
+//     }if(a==b)
+// }
+// function max(a,b){
+//     if (a>b){
+//         return a;
+//     }
+//     else
+//     {
+//         return b;
+//     }
+// }
+// alert("Программа по нахождению MIN и MAX чисел");
+// var a = parseInt(+prompt("Введите первое число"));
+// var b = parseInt(+prompt("Введите второе число"));
+
+// alert("MIN двух чисел: " + min(a,b));
+// alert("MAX двух чисел: " + max(a,b));
+function min(a,b){
+    if (a>b) {
+        alert("MIN двух чисел: " +b);
+    }
+    else if(a==b)
+    {
+        alert("равны"+b);
+}
+    else{
+        alert("MIN двух чисел: "+ a);
+    }
+}
+function max(a,b){
+    if (a>b) {
+        alert("MAX двух чисел: " +a);
+    }
+    else if(a==b)
+    {
+        alert("равны"+b);
+}
+    else{
+        alert("MAX двух чисел: "+ b);
+    }
+}
+alert("Программа по нахождению MIN и MAX чисел");
+var a = +prompt("Введите первое число");
+var b = +prompt("Введите второе число");
+
+min(a,b);
+max(a,b);
+
+</script>

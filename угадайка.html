@@ -1,0 +1,21 @@
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+<script type="text/javascript">
+var answer = parseInt(Math.random()*100);
+var userAnswer = +prompt("Пожалуйста введите число от 1 до 100");
+
+for (var count=1;count<=7;count++){
+
+    if(userAnswer == answer){
+        document.write("Поздравляю вы угодали!!!");
+        break;
+    } else if(userAnswer > answer){
+        document.write("Вы ввели слишком большое число!!!");
+    } else if(userAnswer < answer){
+        document.write("Вы ввели слишком маленькое число!!!");
+    }
+    
+    
+userAnswer = +prompt("Пожалуйста введите число от 1 до 100");
+
+}
+</script>
